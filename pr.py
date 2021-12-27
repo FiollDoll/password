@@ -6,7 +6,7 @@ with open("AdminToken.txt", "w") as file:
 def start():
 	global admin
 	st = input("Write a cod: ")
-	if st == admin2007:
+	if st == "admin2007":
 		print("Welcome, [green]admin[/green]")
 		admin = True
 		menu()
